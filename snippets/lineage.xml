@@ -2,16 +2,6 @@
 <manifest>
   <!-- LineageOS additions -->
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" remote="lineageos" />
-  <project path="external/bash" name="LineageOS/android_external_bash" remote="lineageos" />
-  <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineageos" />
-  <project path="external/htop" name="LineageOS/android_external_htop" remote="lineageos" />
-  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="lineageos" />
-  <project path="external/nano" name="LineageOS/android_external_nano" remote="lineageos" />
-  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="lineageos" />
-  <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" remote="lineageos" />
-  <project path="external/rsync" name="LineageOS/android_external_rsync" remote="lineageos" />
-  <project path="external/unrar" name="LineageOS/android_external_unrar" remote="lineageos" />
-  <project path="external/vim" name="LineageOS/android_external_vim" remote="lineageos" />
   <project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" remote="lineageos" />
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="lineageos" />
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="lineageos" />
