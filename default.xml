@@ -8,7 +8,11 @@
            remote="aosp"
            sync-j="4" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-latest-release"/>
+  <remote  name="lineageos"
+           fetch=".."
+           revision="refs/heads/lineage-23.2"
+           review="review.lineageos.org" />
+
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- BEGIN open-source projects -->
@@ -1120,4 +1124,5 @@
   </project>
   <!-- END open-source projects -->
 
+  <include name="snippets/lineage.xml" />
 </manifest>
