@@ -1123,4 +1123,5 @@
   </project>
   <!-- END open-source projects -->
 
+  <include name="snippets/lineage.xml" />
 </manifest>
